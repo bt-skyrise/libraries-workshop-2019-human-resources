@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workshop2019.HumanResources", "Workshop2019.HumanResources\Workshop2019.HumanResources.csproj", "{AE5BDAAE-8811-49A7-9F47-BA0B5F5A20AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE5BDAAE-8811-49A7-9F47-BA0B5F5A20AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE5BDAAE-8811-49A7-9F47-BA0B5F5A20AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE5BDAAE-8811-49A7-9F47-BA0B5F5A20AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE5BDAAE-8811-49A7-9F47-BA0B5F5A20AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF8156F2-22BC-4FFB-B25B-3AB791059C93}
+	EndGlobalSection
+EndGlobal
