@@ -38,6 +38,8 @@ namespace Workshop2019.HumanResources.EmployeeApi
                     }
                 });
 
+                response.EnsureSuccessStatusCode();
+
                 var stringResponse = await response.Content.ReadAsStringAsync();
 
                 return JsonConvert.DeserializeObject<TResponse>(stringResponse);

@@ -16,11 +16,14 @@ namespace Workshop2019.HumanResources.EmployeeApi
 
         public async Task<EmployeeWorkLogItemDto[]> Get(int employeeId, DateTime from, DateTime to)
         {
-            var response = await _httpClient.Get<GetEmployeeWorkLogResponse>($"api/employees/{employeeId}/work-log", new Dictionary<string, string>
-            {
-                { "from", FormatDate(from) },
-                { "to", FormatDate(to) }
-            });
+            var response = await _httpClient.Get<GetEmployeeWorkLogResponse>(
+                $"api/employees/{employeeId}/work-log",
+                new Dictionary<string, string>
+                {
+                    { "from", FormatDate(from) },
+                    { "to", FormatDate(to) }
+                }
+            );
 
             return response.WorkLogItems;
         }

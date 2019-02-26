@@ -24,9 +24,11 @@ namespace Workshop2019.HumanResources.EmployeeApi
 
         private decimal GetOvertime(EmployeeWorkLogItemDto workLogItem)
         {
+            var defaultWorkingHours = 8;
+
             return IsWeekend(workLogItem.Date)
                 ? workLogItem.WorkedHours
-                : workLogItem.WorkedHours - 8;
+                : workLogItem.WorkedHours - defaultWorkingHours;
         }
 
         private bool IsWeekend(DateTime date)
